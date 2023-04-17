@@ -1,0 +1,137 @@
+.back{
+    background-image: url('./istockphoto-1292605965-612x612.jpg');
+    height: 100vh;
+    background-size: cover;
+    background-position:center;
+    position: relative;
+}
+.back::after{
+    content: '';
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+   
+}
+
+.z{
+    z-index: 6 !important;
+    font-size: 1rem;
+}
+.z1{
+    z-index: 6 !important;
+    font-size: 5rem;
+}
+
+ p{
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+.pa{
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif
+}
+
+.box{
+    background-color: rgb(181, 181, 228);
+    padding-top: 1rem;
+    
+}
+.card1{
+   
+    height: 50vh;
+}
+.box1{
+    background: #396afc; /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #396afc, #2948ff); /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #396afc, #2948ff); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.icon1{
+    border-radius: 5rem;
+   padding-top: 8px;
+   padding-left: 15px;
+   padding-right: 15px;
+   padding-bottom: 8px;
+    
+}
+.icon1:hover{
+    background-color: red;
+    
+}   
+.icon2{
+    border-radius: 5rem;
+   padding-top: 8px;
+   padding-left: 8px;
+   padding-right: 8px;
+   padding-bottom: 8px;
+    
+}
+.icon2:hover{
+    background-color: red;
+}
+.icon3{
+    border-radius: 5rem;
+   padding-top: 8px;
+   padding-left: 7px;
+   padding-right: 13px;
+   padding-bottom: 8px;
+    
+}
+.icon3:hover{
+    background-color: red;
+}
+.icon4{
+    border-radius: 5rem;
+   padding-top: 8px;
+   padding-left: 7px;
+   padding-right: 13px;
+   padding-bottom: 8px;
+    
+}
+.icon4:hover{
+    background-color: red;
+}
+
+
+
+@media screen and (max-width:768px){
+    .z{
+        font-size: large;
+    }
+    .z1{
+        font-size:3rem;
+    }
+    .pa{
+        font-size: 15px;
+        padding-left: 3rem;
+        padding-right: 3rem;
+        font-family: sans-serif
+    }
+    .but1{
+        padding-left: 3rem;
+    }
+    .but2{
+        padding-left: 3rem;
+    }
+    .footer1{
+        display: flex;
+        align-items: center;
+        flex-direction: column;
+        padding-left: 1rem;
+        padding-top: 1rem;
+    }
+    .footer2{
+    display: none;
+    }
+    .icons{
+      padding-bottom: 2rem;
+    }
+   
+}
+
+
+
+
+
+
+
+
